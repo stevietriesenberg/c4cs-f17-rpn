@@ -1,4 +1,5 @@
-language: python
+language:
+    - python
 python:
     - "2.7"
 # command to install dependencies
@@ -9,4 +10,5 @@ python:
     
 script:
     - coverage run test_rpn.py
-after_success: coveralls   
+after_success:
+    - coveralls   
