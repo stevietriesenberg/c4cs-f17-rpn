@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform darwin -- Python 2.7.10, pytest-3.2.3, py-1.4.34, pluggy-0.4.0
+rootdir: /Users/striesenberg/398/tdd, inifile:
+plugins: cov-2.5.1
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_rpn.py _________________________
+/Library/Python/2.7/site-packages/_pytest/python.py:395: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+/Library/Python/2.7/site-packages/py/_path/local.py:662: in pyimport
+    __import__(modname)
+E     File "/Users/striesenberg/398/tdd/test_rpn.py", line 1
+E       mport unittest
+E                    ^
+E   SyntaxError: invalid syntax
+=========================== 1 error in 0.12 seconds ============================
