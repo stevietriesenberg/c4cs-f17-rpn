@@ -8,6 +8,7 @@ operators = {
     '-': operator.sub,
     '*': operator.mul,
     '/': operator.truediv,
+    '^': operator.pow,
 }
 
 #op = colored.fg("red") + colored.attr("bold")
